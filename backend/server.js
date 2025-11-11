@@ -44,7 +44,7 @@ app.get("/", (req, res) => {
   res.send("API is working!");
 });
 
-app.listen(8080,()=>{
+app.listen(8080,'0.0.0.0',()=>{
   console.log("server is listening to port 8080");
   
 })
